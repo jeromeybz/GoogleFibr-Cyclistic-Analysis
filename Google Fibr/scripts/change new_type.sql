@@ -6,7 +6,7 @@
 --     when new_type = 'type_4' then 'Construction'
 --     when new_type = 'type_5' then 'Internet and Wifi'
 --     end as new_types
--- FROM `red-airline-483900-r2.fibr.combined_markets`
+-- FROM `red-airline-483900-r2.fibr.combined_markets `
 
 update `red-airline-483900-r2.fibr.combined_markets`
 set new_type = case
